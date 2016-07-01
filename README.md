@@ -23,7 +23,7 @@ You simply use the CrossSQLiteConnection class, which is singleton. You first in
             var customers = connection.Table<Customer>();
 ```
 
-API
+## API
 
   ```csharp
         // Create a connection to the specified SQLite database
