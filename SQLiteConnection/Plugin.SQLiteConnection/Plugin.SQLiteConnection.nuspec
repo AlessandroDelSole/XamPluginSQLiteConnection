@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Plugin.SQLiteConnection</id>
+    <version>1.0.0.0</version>
+    <title>SQLite Connection Plugin for Xamarin Forms</title>
+    <authors>Alessandro Del Sole</authors>
+    <owners>Alessandro Del Sole</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This plugin for Xamarin Forms makes it easy to create a connection string to a SQLite local database</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright</copyright>
+    <tags>xamarin, xamarin.forms, android, ios, windows phone, sqlite</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="sqlite-net-pcl" version="1.1.1" />
+    </dependencies>
+
+  </metadata>
+
+  <files>
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection\bin\Release\Plugin.SQLiteConnection.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection\bin\Release\Plugin.SQLiteConnection.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.SQLiteConnection.xml" />
+    <file src="..\Plugin.SQLiteConnection\bin\Release\Plugin.SQLiteConnection.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.SQLiteConnection.pdb" />
+
+    <!--Xamarin.Android-->
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\MonoAndroid10\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\MonoAndroid10\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.Android\bin\Release\Plugin.SQLiteConnection.dll" target="lib\MonoAndroid10\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.Android\bin\Release\Plugin.SQLiteConnection.xml" target="lib\MonoAndroid10\Plugin.SQLiteConnection.xml" />
+    <file src="..\Plugin.SQLiteConnection.Android\bin\Release\Plugin.SQLiteConnection.pdb" target="lib\MonoAndroid10\Plugin.SQLiteConnection.pdb" />
+
+    <!--Xamarin.iOS-->
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\MonoTouch10\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\MonoTouch10\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.pdb" target="lib\MonoTouch10\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.iOS\bin\iPhone\Release\Plugin.SQLiteConnection.dll" target="lib\MonoTouch10\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.iOS\bin\iPhone\Release\Plugin.SQLiteConnection.xml" target="lib\MonoTouch10\Plugin.SQLiteConnection.xml" />
+
+    <!--Xamarin.iOS Unified-->
+    <!--<file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.pdb" target="lib\Xamarin.iOS10\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.iOSUnified\bin\iPhone\Release\Plugin.SQLiteConnection.dll" target="lib\Xamarin.iOS10\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.iOSUnified\bin\iPhone\Release\Plugin.SQLiteConnection.xml" target="lib\Xamarin.iOS10\Plugin.SQLiteConnection.xml" />-->
+
+    <!--Win Store-->
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\UAP10\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\UAP10\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\UAP10\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.UWP\bin\Release\Plugin.SQLiteConnection.dll" target="lib\UAP10\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.UWP\bin\Release\Plugin.SQLiteConnection.xml" target="lib\UAP10\Plugin.SQLiteConnection.xml" />
+    <file src="..\Plugin.SQLiteConnection.UWP\bin\Release\Plugin.SQLiteConnection.pdb" target="lib\UAP10\Plugin.SQLiteConnection.pdb" />
+
+    <!--Win Phone-->
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\wp8\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\wp8\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\wp8\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.WindowsPhone8\bin\Release\Plugin.SQLiteConnection.dll" target="lib\wp8\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.WindowsPhone8\bin\Release\Plugin.SQLiteConnection.xml" target="lib\wp8\Plugin.SQLiteConnection.xml" />
+    <file src="..\Plugin.SQLiteConnection.WindowsPhone8\bin\Release\Plugin.SQLiteConnection.pdb" target="lib\wp8\Plugin.SQLiteConnection.pdb" />
+
+    <!--Win Phone RT-->
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\wpa81\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\wpa81\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\wpa81\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.WindowsPhone81\bin\Release\Plugin.SQLiteConnection.dll" target="lib\wpa81\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.WindowsPhone81\bin\Release\Plugin.SQLiteConnection.xml" target="lib\wpa81\Plugin.SQLiteConnection.xml" />
+    <file src="..\Plugin.SQLiteConnection.WindowsPhone81\bin\Release\Plugin.SQLiteConnection.pdb" target="lib\wpa81\Plugin.SQLiteConnection.pdb" />
+
+    <!--Win Store-->
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.dll" target="lib\win8\Plugin.SQLiteConnection.Abstractions.dll" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\win8\Plugin.SQLiteConnection.Abstractions.xml" />
+    <file src="..\Plugin.SQLiteConnection.Abstractions\bin\Release\Plugin.SQLiteConnection.Abstractions.xml" target="lib\win8\Plugin.SQLiteConnection.Abstractions.pdb" />
+    <file src="..\Plugin.SQLiteConnection.WindowsStore\bin\Release\Plugin.SQLiteConnection.dll" target="lib\win8\Plugin.SQLiteConnection.dll" />
+    <file src="..\Plugin.SQLiteConnection.WindowsStore\bin\Release\Plugin.SQLiteConnection.xml" target="lib\win8\Plugin.SQLiteConnection.xml" />
+    <file src="..\Plugin.SQLiteConnection.WindowsStore\bin\Release\Plugin.SQLiteConnection.pdb" target="lib\win8\Plugin.SQLiteConnection.pdb" />
+
+
+  </files>
+</package>
