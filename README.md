@@ -6,7 +6,7 @@ This plugin for Xamarin Forms makes it easy to create a connection to a SQLite d
 
 Available on Nuget: https://www.nuget.org/packages/Plugin.SQLiteConnection/1.0.0
 
-Install the package to the whole solution
+Install the package to the whole solution. This package already includes the SQLite-net-pcl package so you do not need one.
 
 ## USAGE
 
